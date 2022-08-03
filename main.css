@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #27272C;
+    color: #E6E3E9;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 5px solid rgba(192, 101, 192, 0.6);
+    font-family:  'Trebuchet MS', sans-serif;
+    margin : 20px 0px 30px 0px;
+    text-shadow: #C0F 1px 0 10px;
+    padding : 10px;
+        }
+
+.title_font{
+    text-align: center;
+    font-size: 50px;
+    font-family:  'Trebuchet MS', sans-serif;
+    margin : 20px 0px 30px 0px;
+}
+
+.title_font_ins{
+    font-size: 30px;
+    font-family:  'Trebuchet MS', sans-serif;
+    margin : 20px 0px 20px 10px;
+    text-decoration: underline #C0F;
+}
+
+.generation-title {
+    margin: 14px 8px;
+    padding: 5px;
+
+    border: 1px solid rgba(192, 101, 192, 0.6);
+    border-radius: 10px;
+    background-color: #212125;
+    /* control duration of animations on hover */
+    transition: 0.3s ease;
+
+    
+}
+
+.generation-title:hover {
+    transform: translateY(-0.2em);
+    background-color: rgba(192, 101, 192, 0.6);
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+
+
+a {
+    color: #E6E3E9;
+    font-weight: light;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* target first span inside our title (the arrow) */
+
+
+.generation-container {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 8px;
+}
+
+
+
+.link:hover {
+    text-decoration: underline;
+    color: rgba(192, 101, 192, 0.6);
+}
+
+.credits {
+    padding: 5px 10px;
+}
+
+/* --- Big Screens setup --- */
+@media(min-width: 800px) {
+    .credits {
+        /* more distance for big screens */
+        margin-top: 80px;
+    }
+}
+
+button{
+    
+    background: #212125;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding : 15px;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: center;
+    border: 1px solid rgba(192, 101, 192, 0.6);
+}
+button:hover{
+
+    transform: translateY(-0.2em);
+    background-color: rgba(192, 101, 192, 0.6);
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 25%;
+    text-align : center;
+    color : #fff;
+}
+
+td,
+th {
+    border: 1px solid rgba(192, 101, 192, 0.6);
+    text-align: center;
+    padding: 14px;
+}
+li{
+    margin-left: 150px;
+    line-height: 50px;
+}
